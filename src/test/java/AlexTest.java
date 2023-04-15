@@ -9,7 +9,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class AlexTests {
+public class AlexTest {
     @Test
     public void alexHasManeReturnsTrue() throws Exception{
         Feline feline = new Feline();

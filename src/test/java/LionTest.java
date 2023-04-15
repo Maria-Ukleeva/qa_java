@@ -14,11 +14,11 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(Parameterized.class)
-public class LionTests {
+public class LionTest {
 
     String sex;
     boolean hasManeResult;
-    public LionTests(String sex, boolean hasManeResult){
+    public LionTest(String sex, boolean hasManeResult){
         this.sex=sex;
         this.hasManeResult = hasManeResult;
     }
